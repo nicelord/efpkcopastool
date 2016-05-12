@@ -135,11 +135,11 @@ public class MainForm extends javax.swing.JFrame {
         txtSrc.setRows(5);
         jScrollPane1.setViewportView(txtSrc);
 
-        txtRes.setColumns(20);
+        txtRes.setColumns(2);
         txtRes.setRows(5);
         jScrollPane2.setViewportView(txtRes);
 
-        txtRes2.setColumns(20);
+        txtRes2.setColumns(2);
         txtRes2.setRows(5);
         jScrollPane3.setViewportView(txtRes2);
 
