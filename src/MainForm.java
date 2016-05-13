@@ -233,8 +233,8 @@ public class MainForm extends javax.swing.JFrame {
         // TODO add your handling code here:
         txtRes.setText("");
         txtRes2.setText("");
-        Map<Integer, List<Data>> m = new HashMap<>();
-        List<Data> listEF = new ArrayList<>();
+        Map<Integer, List<Data>> m = new HashMap<Integer, List<Data>>();
+        List<Data> listEF = new ArrayList<Data>();
         for (String line : txtSrc.getText().split("\\n")) {
             try {
 
@@ -254,7 +254,7 @@ public class MainForm extends javax.swing.JFrame {
                 List<Data> lst = m.get(Integer.valueOf(efk.getTanggal()));
                 if (lst == null) {
 
-                    lst = new ArrayList<>();
+                    lst = new ArrayList<Data>();
                 }
                 lst.add(efk);
                 m.put(Integer.valueOf(efk.getTanggal()), lst);
@@ -293,8 +293,8 @@ public class MainForm extends javax.swing.JFrame {
 
         txtRes.setText("");
         txtRes2.setText("");
-        Map<Integer, List<Data>> m = new HashMap<>();
-        List<Data> listEF = new ArrayList<>();
+        Map<Integer, List<Data>> m = new HashMap<Integer, List<Data>>();
+        List<Data> listEF = new ArrayList<Data>();
         for (String line : txtSrc.getText().split("\\n")) {
 
             try {
@@ -314,7 +314,7 @@ public class MainForm extends javax.swing.JFrame {
                 List<Data> lst = m.get(Integer.valueOf(efk.getTanggal()));
                 if (lst == null) {
 
-                    lst = new ArrayList<>();
+                    lst = new ArrayList<Data>();
                 }
                 lst.add(efk);
                 m.put(Integer.valueOf(efk.getTanggal()), lst);
@@ -353,8 +353,8 @@ public class MainForm extends javax.swing.JFrame {
 
         txtRes2.setText("");
         txtRes21.setText("");
-        Map<Integer, List<Data>> m = new HashMap<>();
-        List<Data> listEF = new ArrayList<>();
+        Map<Integer, List<Data>> m = new HashMap<Integer, List<Data>>();
+        List<Data> listEF = new ArrayList<Data>();
         for (String line : txtSrc1.getText().split("\\n")) {
             if (line.startsWith("0")) {
 
@@ -375,7 +375,7 @@ public class MainForm extends javax.swing.JFrame {
             List<Data> lst = m.get(Integer.valueOf(efk.getTanggal()));
             if (lst == null) {
 
-                lst = new ArrayList<>();
+                lst = new ArrayList<Data>();
             }
             lst.add(efk);
             m.put(Integer.valueOf(efk.getTanggal()), lst);
