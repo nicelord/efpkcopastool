@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
   <jar>D:\RIZA\NetBeansProjects\efpkcopastool\dist\EF-PK_CopasTool.jar</jar>
-  <outfile>C:\Users\user\Desktop\copastool_ef-pk.exe</outfile>
+  <outfile>C:\Users\user\Desktop\EF-PK_Report_ByDate.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
